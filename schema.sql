@@ -59,7 +59,7 @@ INSERT INTO bachelor (name, age, zodiac_sign, description) VALUES
 do brunetek o długich 
   wąsach ale wiadomo wygląd nie jest najważniejszy.Bardzo wierzę w horoskopy, więc 
 kompatybilność zodiakalna jest kluczowa! 
-  Jestem domatorem i kocham muzykę i filmy. Chciałbym zeby moja partnerka nie byla starsza ode 
+  Jestem domatorem i kocham muzykę i ksiązki. Chciałbym zeby moja partnerka nie byla starsza ode 
 mnie.');
 
 -- Dodajemy uczestniczki (znane kotki z bajek + dodatkowe uczestniczki)
@@ -129,14 +129,14 @@ INSERT INTO appearance (contestant_id, fur_color, eye_color, whisker_length) VAL
 -- Dodajemy zainteresowania dla każdej uczestniczki
 INSERT INTO interests (contestant_id, music, travel, sports, books, movies, cooking) VALUES
 (1, 0, 0, 0, 1, 1, 1),
-(2, 1,0, 0, 0, 1, 0),
+(2, 1,0, 0, 1, 1, 0),
 (13, 1, 0,0, 1, 0, 1),
 (4, 1, 0, 0, 0, 1, 1),
 (5, 1, 0, 0, 0, 1, 1),
 (6, 1, 0, 0, 0, 1, 1),
 (7, 1, 0, 0, 0, 1, 1),
 (8, 1, 0, 0, 0, 1, 1),
-(19, 1, 1, 0, 1, 1, 1),
+(19, 1, 0, 0, 1, 1, 1),
 (10, 1, 0,1, 0, 1, 1);
 
 -- Dodajemy randki
